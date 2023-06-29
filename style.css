@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: block;
+
+}
+
+.nav-bar{
+
+}
+
+nav {
+    display: flex;
+    padding:30px;
+    background-color: #1a1a1a;
+    height: max-content;
+    justify-content: center;
+
+
+
+
+
+}
+.nav-buttons div{
+    display: flex;
+    color: white;
+    font-family: "Arial";
+    font-size: large;
+    font-weight: bold;
+
+}
+
+
+
+.nav-buttons .first{
+    color: #fa4454;
+    font-weight: bold;
+
+}
+.nav-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    align-self: center;
+    flex: 0 1 400px;
+
+
+
+
+
+
+}
+
+
+header{
+    background-color: #1a1a1a;
+    height: max-content;
+    display: flex;
+    flex-flow: column;
+    flex-direction: row;
+    align-items: first;
+    padding: 40px;
+    justify-content: space-evenly;
+}
+
+.info h1{
+    justify-content: start;
+    margin-bottom: 20px;
+}
+
+.info h2{
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+.info h3{
+    font-weight: lighter;
+    margin-right: 40px;
+}
+main{
+    background-color:#fa4454;
+    height: max-content;
+    display: flex;
+    flex-flow: column;
+
+}
+footer{
+    background-color: #1a1a1a;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.logo{
+    height: 100px;
+    padding-right: 20px;
+}
+
+.info{
+    font-family: "Arial";
+    color: white;
+    order: 1;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 40px;
+    gap: 40px;
+    width:auto;
+    flex: 0 1 auto;
+}
+
+.cards div h2 {
+    font-family: "Arial";
+    font-size: large;
+    font-weight: bold;
+    color:white;
+    margin-bottom: 20px;
+
+
+}
+
+
+main h1{
+    font-family: "Arial";
+    font-size: xx-large;
+    font-weight: bold;
+    color:white;
+    justify-content: center;
+    align-self: center;
+    padding-top: 40px;
+
+}
+.cards div{
+    border: 2px #1a1a1a;
+    padding: 40px 40px 0px 40px;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+}
+
+.cards div img{
+    border-radius: 10px;
+}
+.cards div p{
+    font-family: "Arial";
+    font-size: large;
+    font-weight: bold;
+    color:white;
+    padding: 20px 0px 20px 0px;
+
+}
+
+
+.sign-up{
+    display: flex;
+    background-color: #fa4454;
+    height: max-content;
+    justify-content: space-evenly;
+    align-self: center;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    height: max-content;
+    background-color:white;
+    flex: 0 1 800px;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-self: center;
+    padding: 20px;
+    gap:20px;
+    //position: fixed;
+    flex-flow: row;
+
+
+}
+
+.button{
+    justify-content: center;
+    align-self: center;
+    display: flex;
+    width: 200px;
+    flex: 0 1 200px;
+    flex-flow: row;
+}
+
+.container .log-in{
+    width: 100px;
+    height: max-content;
+    background-color: #fa4454;
+    display: flex;
+    border-radius: 10px;
+     justify-content: center;
+     align-self: center;
+    padding: 20px;
+    flex: 0 1 200px;
+    margin-left: auto;
+}
+
+.log-in p{
+    font-family: "Arial";
+    font-size: large;
+    font-weight: bold;
+    color: white;
+
+}
