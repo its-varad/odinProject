@@ -18,16 +18,14 @@ nav {
     background-color: #1a1a1a;
     height: max-content;
     justify-content: center;
-
-
-
-
+    position: sticky;
+    top: 0px;
 
 }
 .nav-buttons div{
     display: flex;
     color: white;
-    font-family: "Arial";
+    font-family: "spotify-medium";
     font-size: large;
     font-weight: bold;
 
@@ -61,7 +59,7 @@ header{
     display: flex;
     flex-flow: column;
     flex-direction: row;
-    align-items: first;
+
     padding: 40px;
     justify-content: space-evenly;
 }
@@ -100,7 +98,7 @@ footer{
 }
 
 .info{
-    font-family: "Arial";
+    font-family: "spotify-light";
     color: white;
     order: 1;
 }
@@ -113,13 +111,12 @@ footer{
     margin: 40px;
     gap: 40px;
     width:auto;
-    flex: 0 1 auto;
+    flex: 0 1 400px;
 }
 
 .cards div h2 {
-    font-family: "Arial";
+    font-family: "spotify-medium";
     font-size: large;
-    font-weight: bold;
     color:white;
     margin-bottom: 20px;
 
@@ -128,9 +125,8 @@ footer{
 
 
 main h1{
-    font-family: "Arial";
+    font-family: "spotify-medium";
     font-size: xx-large;
-    font-weight: bold;
     color:white;
     justify-content: center;
     align-self: center;
@@ -148,9 +144,8 @@ main h1{
     border-radius: 10px;
 }
 .cards div p{
-    font-family: "Arial";
+    font-family: "spotify-medium";
     font-size: large;
-    font-weight: bold;
     color:white;
     padding: 20px 0px 20px 0px;
 
@@ -159,11 +154,15 @@ main h1{
 
 .sign-up{
     display: flex;
-    background-color: #fa4454;
     height: max-content;
     justify-content: space-evenly;
+    position: fixed;
+    bottom:20px;
     align-self: center;
-    padding: 20px;
+    width: 100%;
+    flex: 1 1 800px;
+
+
 }
 
 .container{
@@ -176,8 +175,7 @@ main h1{
     align-self: center;
     padding: 20px;
     gap:20px;
-    //position: fixed;
-    flex-flow: row;
+
 
 
 }
@@ -205,9 +203,25 @@ main h1{
 }
 
 .log-in p{
-    font-family: "Arial";
+    font-family: "spotify-heavy";
     font-size: large;
-    font-weight: bold;
     color: white;
 
 }
+
+@font-face {
+    font-family: spotify-heavy;
+    src: url("CircularSpotifyText-Black.otf")
+}
+
+
+@font-face {
+    font-family: spotify-light;
+    src:url("CircularSpotifyText-Light.otf");
+}
+
+@font-face {
+    font-family: spotify-medium;
+    src: url("CircularSpotifyText-Medium.otf");
+}
+
